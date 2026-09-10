@@ -1,0 +1,36 @@
+{
+  "name": "dsh-custom",
+  "version": "0.1.5",
+  "private": true,
+  "dependencies": {
+    "@morlay/better-session": "0.0.18",
+    "@morlay/dsh-preset": "0.0.1"
+  },
+  "devDependencies": {
+    "@morlay/dsh-desktopify": "0.1.4"
+  },
+  "scripts": {
+    "dev:web": "pnpm exec dsh-desktopify dev --web",
+    "bundle:install": "pnpm exec dsh-desktopify bundle --install"
+  },
+  "dsh": {
+    "version": "0.1.5-rc.2",
+    "profile": {
+      "bundles": [
+        "@morlay/better-session",
+        "@morlay/dsh-preset"
+      ]
+    },
+    "desktop": {
+      "id": "ai.deepseek.dsh.custom",
+      "window": {
+        "width": 1280,
+        "height": 800,
+        "minWidth": 800,
+        "minHeight": 600
+      },
+      "icon": "icon.svg",
+      "dshHome": "xdg"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+autoInstallPeers: true
+nodeLinker: hoisted
+minimumReleaseAge: 0
+
+allowBuilds:
+  '@deepseek-ai/dsh-subprocess-local': true
+  "@google/genai": true
+  electron-winstaller: true
+  esbuild: true
+  fs-ext: true
+  koffi: true
+  node-pty: true
+  protobufjs: true
