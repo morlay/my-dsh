@@ -4,10 +4,10 @@
   "private": true,
   "dependencies": {
     "@morlay/better-session": "0.0.18",
-    "@morlay/dsh-preset": "0.0.1"
+    "@morlay/dsh-preset": "0.0.2"
   },
   "devDependencies": {
-    "@morlay/dsh-desktopify": "0.1.4"
+    "@morlay/dsh-desktopify": "0.1.5"
   },
   "scripts": {
     "dev:web": "pnpm exec dsh-desktopify dev --web",
