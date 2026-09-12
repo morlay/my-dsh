@@ -16,8 +16,8 @@ importers:
         version: 0.0.1(faf77f802d934b3fbbe20625579f5758)
     devDependencies:
       '@morlay/dsh-desktopify':
-        specifier: 0.1.3
-        version: 0.1.3(13299b76ec1a9caa2a7efbbf660879e7)
+        specifier: 0.1.4
+        version: 0.1.4(13299b76ec1a9caa2a7efbbf660879e7)
 
 packages:
 
@@ -2503,8 +2503,8 @@ packages:
       '@deepseek-ai/dsh-system-prompt': ^0.1.5-rc.2
       '@deepseek-ai/dsh-tools': ^0.1.5-rc.2
 
-  '@morlay/dsh-desktopify@0.1.3':
-    resolution: {integrity: sha512-9KjC2HxZoQ8iMgyDbXHjuWN/wm2HjXOU6/9tGuia5YDGsMriFt1HCpRV7dgE/nMbN3RODOp8TUB5AaYt0aL8WQ==}
+  '@morlay/dsh-desktopify@0.1.4':
+    resolution: {integrity: sha512-nZM3csu/fZBizKiUQM1VCyfxuhM6hp8sJkliyxx+y2p71qH5Eqwxit3gzP8G580dxv2q87L0w7aB9XAHadjSNQ==}
     engines: {node: '>=24.11.0'}
     hasBin: true
 
@@ -8093,7 +8093,7 @@ snapshots:
       '@deepseek-ai/schemastery': 3.18.2
       zod: 4.6.1
 
-  '@morlay/dsh-desktopify@0.1.3(13299b76ec1a9caa2a7efbbf660879e7)':
+  '@morlay/dsh-desktopify@0.1.4(13299b76ec1a9caa2a7efbbf660879e7)':
     dependencies:
       '@deepseek-ai/dsh': 0.1.5-rc.2(cc6a948a4cb79e7df4cd68603f8d30c9)
       commander: 15.0.0
