@@ -3,11 +3,11 @@
   "version": "0.1.5",
   "private": true,
   "dependencies": {
-    "@morlay/better-session": "0.0.18",
-    "@morlay/dsh-preset": "0.0.2"
+    "@morlay/better-session": "0.0.19",
+    "@morlay/dsh-preset": "0.0.3"
   },
   "devDependencies": {
-    "@morlay/dsh-desktopify": "0.1.5"
+    "@morlay/dsh-desktopify": "0.1.6"
   },
   "scripts": {
     "dev:web": "pnpm exec dsh-desktopify dev --web",
