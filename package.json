@@ -1,20 +1,20 @@
 {
   "name": "dsh-custom",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": true,
   "dependencies": {
-    "@morlay/better-session": "0.0.20",
-    "@morlay/dsh-preset": "0.0.5"
+    "@morlay/better-session": "0.0.21-alpha.5",
+    "@morlay/dsh-preset": "0.0.6-alpha.5"
   },
   "devDependencies": {
-    "@morlay/dsh-desktopify": "0.1.7"
+    "@morlay/dsh-desktopify": "0.1.8-alpha.6"
   },
   "scripts": {
     "dev:web": "pnpm exec dsh-desktopify dev --web",
     "bundle:install": "pnpm exec dsh-desktopify bundle --install"
   },
   "dsh": {
-    "version": "0.1.5-rc.2",
+    "version": "0.1.6-alpha.2",
     "profile": {
       "bundles": [
         "@morlay/better-session",

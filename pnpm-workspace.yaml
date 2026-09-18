@@ -10,4 +10,5 @@ allowBuilds:
   fs-ext: true
   koffi: true
   node-pty: true
+  pnpm: true
   protobufjs: true
